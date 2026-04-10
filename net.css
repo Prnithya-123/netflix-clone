@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+body 
+ {
+     background-image: url("./images/netflix.jpg");
+      height:100vh;
+       background-image: url("./images/the_netflix_login_.jpg");
+    background-size: cover;
+    background-position: center;
+     overflow: hidden;
+     
+ }
+
+.logo {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header {
+  background-color:black;
+  display: flex;
+  align-items: center;
+  gap:40px;
+  padding: 15px 40px;
+ 
+  
+}
+nav {
+  display: flex;
+  align-items: center;
+  
+}
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
+
+}
+nav ul li a{
+    font-size:15px;
+    color:white;
+    cursor:pointer;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li.act a{
+    color:red;
+    font-weight: bold;
+}
+
+.search-bar{
+    display:flex;
+    margin-left:40px;;
+    align-items: center;
+    gap:5px;
+}
+.search-input{
+    font-size: 15px;
+    border:2px solid black;
+    border-radius:5px;
+    padding:2px 4px;
+    color:black;
+    width:200px;
+     transition: transform 2s;
+}
+.search-input:hover{
+    transform:scale(1.1)
+}
+
+.search-button{
+    padding:2px 6px;
+    background-color:skyblue;
+    color:white;
+    border-radius:5px;
+    font-size:15px;
+   cursor:pointer;
+    border:none;
+}
+.search-button:hover{
+    background-color: azure;
+}
+
+main h1{
+    padding:30px 40px 20px;
+    font-size: 20px;
+    color:white;
+    }
+
+.movies{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px;
+    padding:0 40px;
+}
+.films{
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.films:hover {
+  /*transform: rotate(10deg);*/
+  transform:scale(1.2)
+}
+.films {
+  transition: transform 2s;
+  
+}
+
+.films img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+.films {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color:white;
+    text-transform: capitalize;
+}
+.srekaram-film img 
+{
+  width: 180px;
+  height: 260px;
+  object-fit: contain;
+  display: block;
+  
+}
+main h1{
+    padding:30px 40px 20px;
+    font-size: 20px;
+    color:white;
+    }
+
+.programs{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px;
+    padding:0 40px;
+}
+.shows{
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.shows:hover {
+  /*transform: rotate(10deg);*/
+  transform:scale(1.2)
+}
+.shows{
+  transition: transform 2s;
+  
+}
+
+.shows img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+.shows {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color:white;
+    text-transform: capitalize;
+}
+.hero{
+    margin-top: 150px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    padding:20px;
+    flex-direction: column;
+   
+    
+}
+.hero-content{
+   max-width: 600px;
+   margin:auto;
+    overflow: hidden;
+}
+.email-form{
+    margin-top: 20px;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.email-form input{
+    border-radius:5px;
+    font-size: 15px;
+    padding:10px;
+    width:250px;
+    border:none;
+   transition: transform 5s;
+    
+}
+.email-form input:hover{
+    transform:scale(1.5);
+
+}
+.email-form button{
+    padding:10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+     border-radius:5px;
+     border:none;
+     cursor: pointer;
+}
+
